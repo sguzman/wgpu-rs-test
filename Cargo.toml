@@ -14,6 +14,10 @@ path = "./src/main.rs"
 name = "main2"
 path = "./src/main2.rs"
 
+[[bin]]
+name = "challenge"
+path = "./src/challenge.rs"
+
 [dependencies]
 image = "0.23"
 winit = "0.25"

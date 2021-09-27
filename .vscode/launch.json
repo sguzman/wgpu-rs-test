@@ -7,6 +7,24 @@
         {
             "type": "lldb",
             "request": "launch",
+            "name": "Debug executable 'challenge'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=challenge",
+                    "--package=wgpu-rs-test"
+                ],
+                "filter": {
+                    "name": "challenge",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
             "name": "Debug executable 'main2'",
             "cargo": {
                 "args": [

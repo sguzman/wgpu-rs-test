@@ -15,7 +15,7 @@
                     "--package=wgpu-rs-test"
                 ],
                 "filter": {
-                    "name": "wgpu-rs-test",
+                    "name": "main2",
                     "kind": "bin"
                 }
             },
